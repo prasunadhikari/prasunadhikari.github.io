@@ -1,252 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Prasun Adhikari</title>
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- SEO Meta -->
-    <meta name="description" content="Prasun Adhikari - Front-End Developer, BCA Student, React Enthusiast">
-    <meta name="keywords" content="Prasun Adhikari, Front-End Developer, React Developer, BCA Student">
-    <meta name="author" content="Prasun Adhikari">
-
+    <title>Resume Template</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-    <!-- Certificate Popup Script -->
-    <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const btn = document.getElementById("viewCert");
-        const popup = document.getElementById("certModal");
-
-        btn.addEventListener("click", function () {
-            const rect = btn.getBoundingClientRect();
-            popup.style.display = "block";
-            popup.style.top = window.scrollY + rect.top - popup.offsetHeight / 2 + rect.height / 2 + "px";
-            popup.style.left = rect.left + rect.width / 2 - popup.offsetWidth / 2 + "px";
-        });
-
-        document.addEventListener("click", function (e) {
-            if (!popup.contains(e.target) && e.target !== btn) {
-                popup.style.display = "none";
-            }
-        });
-    });
-    </script>
 </head>
 
 <body>
 
-<!-- Dark Mode -->
-<button id="darkToggle" class="dark-toggle" aria-label="Toggle dark mode">
-    🌙 Dark Mode
-</button>
+<div class="container">
 
-<main class="container">
+    <header class="header">
+        <img src="profile.jpg" alt="Prasun Adhikari" class="profile-image">
 
-<!-- Header -->
-<header class="header card">
-    <div class="header-left">
         <h1>Prasun Adhikari</h1>
-        <p class="tagline">
-            Front-End Developer | React Enthusiast | BCA Student
+        <h3>BCA Graduate</h3>
+
+        <p>
+            I am a Bachelor of Computer Applications graduate. I like to pay attention to details. I am very motivated.
+            Iknow about software development and web technologies. I also know about database management and programming.
+            I really want to build innovative solutions. I like to learn things and I am always looking for new technologies
+            to learn. I am looking for a job where I can use my skills. I want to work in anenvironment where I can use
+            my skills as a Bachelor of Computer Applications graduate.
         </p>
-        <p class="contact-info">
-            Gangtok, Sikkim (Temp) | Jhapa, Nepal (Permanent)<br>
-            📞 +91 8509500314 | +977 9825988602<br>
-            ✉️ bprasun44@gmail.com
-        </p>
-    </div>
+    </header>
 
-    <div class="header-right">
-        <img src="profile.jpg" alt="Profile photo of Prasun Adhikari">
-    </div>
-</header>
+    <section>
+        <h2>Contact</h2>
+        <p>+9779825988602 | +918509500314</p>
+        <p>aprasun44@gmail.com</p>
+        <p>Jhapa, Nepal</p>
+    </section>
 
-<hr>
+    <section>
+        <h2>Education</h2>
 
-<!-- About Me -->
-<section class="card">
-    <h2>About Me</h2>
-    <p>
-        I am a Front-End Developer and BCA student with hands-on experience in building responsive, user-friendly websites using HTML, CSS, JavaScript, and React. 
-        I have worked on real-world projects including Nexon Logistics and TechFest SRMUS, where I contributed to UI development, performance optimization, and modern web design. 
-        I am passionate about clean code, great user experiences, and continuously improving my skills.
-    </p>
-</section>
+        <div class="item">
+            <strong>2023-2026</strong>
+            <p>Bachelor of Computer Applications </p>
+            <p>SRM University, Sikkim</p>
+        </div>
 
-<!-- Education -->
-<section class="card">
-    <h2>Education</h2>
+        <div class="item">
+            <strong>2022-2023</strong>
+            <p> NEB Grade 12 in Computer Management </p>
+            <p> Kanchnjunga H.S School Birtamode </p>
+        </div> 
+    </section>
 
-    <p>
-        <strong>Bachelor of Computer Applications (BCA)</strong><br>
-        SRM University, Sikkim<br>
-        June 2023 - May 2026<br>
-        CGPA: 8.6
-    </p>
+    <section>
+        <h2>Expertise</h2>
 
-    <p>
-        <strong>Senior Secondary (SLC)</strong><br>
-        Kanchanjunga Higher Secondary School, Jhapa, Nepal<br>
-        2021-2022<br>
-        Percentage: 70%
-    </p>
+        <div class="tags">
+            <span>QA & Testing </span>
+            <span>Visual Design </span>
+            <span>Web Technologies </span>
+            <span>DBMS </span>
+            <span>Software Engineering </span>
+            <span>UI/UX </span>
+        </div>
+    </section>
 
-    <p>
-        <strong>Secondary Education (SEE)</strong><br>
-        Shree Rastriya Ramaniya Adarsha Secondory School, Jhapa, Nepal<br>
-        SEE - 2020<br>
-        Percentage: 82%
-    </p>
-</section>
+    <section>
+        <h2>Language</h2>
 
-<!-- Work Experience -->
-<section class="card">
-    <h2>Work Experience</h2>
+        <div class="tags">
+            <span>English</span>
+            <span>Nepali</span>
+            <span>Hindi</span>
+        </div>
+    </section>
 
-    <p>
-        <strong>Front-End Developer Intern (Remote)</strong><br>
-        Nexon Logistics<br>
-        Dec 2025 - Jan 2026
-    </p>
+    <section>
+        <h2>Experience</h2>
 
-    <ul>
-        <li>Developed responsive user interfaces using modern front-end tools</li>
-        <li>Collaborated with developers to improve UI/UX consistency</li>
-        <li>Optimized components for better performance and usability</li>
-        <li>Worked with version control systems (Git)</li>
-    </ul>
-</section>
+        <div class="item">
+            <strong>2024 - 2025</strong>
+            <p>Nexon Logistics</p>
+            <p>Developer Intern</p>
+            <p> I worked at Nexon Logistics as a Front-End Developer Intern. My job was to help make web
+                applications that work well on devices. I used web technologies to do this. I worked with
+                designers and other developers to make sure the web applications were easy to use. We made
+                features and improved the way people use the web applications.
+                I looked at peoples code and gave my feedback. I helped connect the web applications to systems
+                using APIs. I made sure the web applications were quality and worked the way they were
+                supposed to. I found bugs. Reported them. I checked to make sure the web applications did what
+                they were supposed to do. Nexon Logistics Front-End Developer Intern job was a learning
+                experience, for me.
+            </p>
+        </div>
 
-<!-- Projects -->
-<section class="card">
-    <h2>Projects</h2>
+        <div class="item">
+            <strong>2025 - 2026</strong>
+            <p>Software Technology Parks of India (STPI), Gangtok</p>
+            <p>Internship</p>
+            <p>Bachelor of Computer Applications graduate with a foundation in software development, web
+                technologies and Internet of Things (IoT) projects. I completed a training in IoT and Wearables
+                through Software Technology Parks of India (STPI) and successfully made an IoT-based ECG
+                monitoring system using Arduino Nano 33 Board. I am skilled, in solving problems writing
+                documents analyzing systems fixing bugs and developing projects. I have experience working
+                with web technologies, databases and software development practices through academic and
+                internship projects. I am eager to use my knowledge learn new technologies and contribute
+                effectively in a professional environment and create high-quality software products.</p>
+        </div>
+    </section>
 
-    <p>
-        <strong>TechFest SRMUS Website</strong> —
-        <a href="https://www.techfestsrmus.in" target="_blank">Visit Website</a><br>
-        Role: Web Development Helper (Individual)
-    </p>
+    <section>
+        <h2>Projects</h2>
 
-    <ul>
-        <li>Assisted in implementing front-end features</li>
-        <li>Worked with React components and layouts</li>
-        <li>Ensured responsive design across devices</li>
-    </ul>
-
-    <p>
-        <strong>Nexon Logistics Website</strong> —
-        <a href="https://www.nexonlogistics.com" target="_blank">Visit Website</a><br>
-        Role: Web Development Intern
-    </p>
-    
-
-    <ul>
-        <li>Front-End Development & UI Design</li>
-        <li>Application Optimization & Performance Improvement</li>
-        <li>Team Collaboration & Professional Practice</li>
-    </ul>
-</section>
-
-<!-- Technical Skills -->
-<section class="card">
-    <h2>Technical Skills</h2>
-    <ul class="skills-list">
-        <li><strong>Programming:</strong> C, Java, Python, JavaScript</li>
-        <li><strong>Web:</strong> HTML, CSS, React, Bootstrap</li>
-        <li><strong>Databases:</strong> MySQL, MongoDB</li>
-        <li><strong>Tools:</strong> Git, VS Code, MS Office</li>
-    </ul>
-</section>
-
-<!-- Soft Skills -->
-<section class="card">
-    <h2>Soft Skills</h2>
-    <ul class="soft-skills">
-        <li>Effective Communication</li>
-        <li>Problem Solving</li>
-        <li>Time Management</li>
-        <li>Team Collaboration</li>
-        <li>Quick Learner</li>
-    </ul>
-</section>
-
-<!-- Certifications -->
-<section class="card">
-    <h2>Certifications</h2>
+<div class="item">
+    <strong>Nexon Logistics Website</strong>
 
     <p>
-        Front-End Developer Internship -
-        <a href="https://nexonlogistics.com" target="_blank">Nexon Logistics</a> |
-        <a href="javascript:void(0)" id="viewCert">Click to view</a>
+        I worked on the Nexon Logistics website. I ensured the website was responsive, user-friendly, and optimized for performance across different devices. My contributions helped improve usability and deliver a smooth user experience.
     </p>
 
     <p>
-        IOMT & Wearables Internship -
-        <a href="https://stpi.in" target="_blank">STPI</a> | 
-        <a href="javascript:void(0)" id="viewCert">Click to view</a>
+        <a href="https://nexonlogistics.com" target="_blank">
+            🔗 Visit Nexon Logistics
+        </a>
     </p>
-</section>
-
-<!-- Certificate Popups -->
-<div id="certModal" class="cert-inline">
-    <img src="Internship_nexon.png" alt="Nexon Internship Certificate">
 </div>
 
-<div id="certModal2" class="cert-inline">
-    <img src="certificateinternshipSTIP.png" alt="STIP Internship Certificate">
+<div class="item">
+    <strong>Transformation Tech Fest Website</strong>
+
+    <p>
+        I worked on the Tech Fest website for Transformation. I contributed to the user interface and ensured the website looked responsive and visually appealing across all devices. My work helped improve user engagement and provide a smooth browsing experience for visitors.
+    </p>
+
+    <p>
+        <a href="https://techfestsrmus.in" target="_blank">
+            🔗 Visit Tech Fest Website
+        </a>
+    </p>
 </div>
 
-<!-- Contact -->
-<section class="card">
-    <h2>Contact</h2>
-    <div class="contact">
-        <a href="https://www.linkedin.com/in/prasun-adhikari-2021723a1" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-        <a href="mailto:bprasu44@gmail.com"><i class="fas fa-envelope"></i> Email</a>
-        <a href="https://wa.me/918509500314" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-        <a href="https://instagram.com/wtf.prasun" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
-        <a href="https://github.com/prasunwtf" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+<div class="item">
+    <strong>Personal Portfolio</strong>
+
+    <p>
+        I designed and developed my personal portfolio website to showcase my projects, technical skills, certifications, and professional experience. The website serves as a central place where recruiters and clients can learn more about my work and achievements.
+    </p>
+
+    <p>
+        <a href="https://prasunwtf.github.io" target="_blank">
+            🔗 Visit My Portfolio
+        </a>
+    </p>
+</div>
+       </section>
+
+<section class="certificates">
+    <h2>Certificates</h2>
+
+  <div class="item">
+    <strong>Front-End Developer Internship Certificate</strong>
+    <p>Successfully completed a Front-End Developer Internship at Nexon Logistics.</p>
+    <button onclick="openCert('Internship_nexon.png')">
+      View Certificate
+    </button>
+  </div>
+
+  <div class="item">
+    <strong>IOMT & Wearables Internship Certificate</strong>
+    <p>Successfully completed the IOMT & Wearables Internship conducted by STPI.</p>
+    <button onclick="openCert('certificateinternshipSTIP.png')">
+      View Certificate
+    </button>
+  </div>
+
+</section>
+
+
+
+    <section>
+        <h2>Reference</h2>
+        <p>Available upon request</p>
+    </section>
+
+   <section>
+    <h2>Resume</h2>
+
+    <div class="item">
+        <strong>My Resume</strong>
+        <p>
+            View my resume or download the PDF version below.
+        </p>
+
+        <p class="resume-buttons">
+
+            <!-- VIEW IMAGE -->
+            <a href="myresume.png" target="_blank">
+                View Resume
+            </a>
+
+            <!-- DOWNLOAD PDF -->
+            <a href="myresume.pdf" download>
+                Download Resume
+            </a>
+
+        </p>
     </div>
 </section>
 
-<!-- Resume -->
-<section class="card resume-download">
-    <a href="myresume.pdf" target="_blank" rel="noopener noreferrer">
-        <i class="fas fa-file-download"></i> View Resume (PDF)
-    </a>
-</section>
+</div>
 
+<script src="script.js"></script>
 
-<section class="card resume-download">
-    <a href="myresume.pdf" download>
-        <i class="fas fa-file-download"></i> Download Resume (PDF)
-    </a>
-</section>
-
-</main>
-
-<script>
-const toggleBtn = document.getElementById("darkToggle");
-const body = document.body;
-
-if (localStorage.getItem("theme") === "dark") {
-    body.classList.add("dark");
-    toggleBtn.textContent = "☀️ Light Mode";
-}
-
-toggleBtn.addEventListener("click", () => {
-    body.classList.toggle("dark");
-    if (body.classList.contains("dark")) {
-        localStorage.setItem("theme", "dark");
-        toggleBtn.textContent = "☀️ Light Mode";
-    } else {
-        localStorage.setItem("theme", "light");
-        toggleBtn.textContent = "🌙 Dark Mode";
-    }
-});
-</script>
 
 </body>
 </html>
