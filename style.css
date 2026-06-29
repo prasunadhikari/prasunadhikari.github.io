@@ -12,12 +12,15 @@ body{
     color:#1d1d1f;
 }
 
-/* MAIN CONTAINER */
-.container{
-    width:100%;
-    max-width:900px;
-    margin:0 auto;
-    padding:80px 40px;
+/* ===== MAIN CONTAINER ===== */
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 40px;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.8;
+    color: #333;
 }
 
 /* HEADER */
@@ -56,6 +59,16 @@ body{
 .header p{
     max-width:650px;
     margin:auto;
+}
+
+/* ===== PARAGRAPHS ===== */
+.container p {
+    font-family: "Times New Roman", Times, serif;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
 }
 
 /* SECTIONS */
