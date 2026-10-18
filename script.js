@@ -60,6 +60,12 @@ if (menuToggle && navLinks) {
         const isOpen =
             navLinks.classList.contains("active");
 
+        menuToggle.setAttribute("aria-expanded", String(isOpen));
+        menuToggle.setAttribute(
+            "aria-label",
+            isOpen ? "Close navigation" : "Open navigation"
+        );
+
         menuToggle.innerHTML = isOpen
             ? '<i class="fas fa-xmark"></i>'
             : '<i class="fas fa-bars"></i>';
@@ -76,6 +82,8 @@ if (menuToggle && navLinks) {
         link.addEventListener("click", () => {
 
             navLinks.classList.remove("active");
+            menuToggle.setAttribute("aria-expanded", "false");
+            menuToggle.setAttribute("aria-label", "Open navigation");
 
             menuToggle.innerHTML =
                 '<i class="fas fa-bars"></i>';
